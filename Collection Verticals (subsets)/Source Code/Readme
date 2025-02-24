@@ -1,3 +1,9 @@
+This folder contains code applied to the entire collection and code applies to sepcific verticals.
+
+The two most important scripts that may apply to any vertical or the entire collection are the following:
+**1. Extracting 7z Files into Seperate Folders:** This code extracts 7z files from the origin path into separate folders (EP, WO, US, CN, JP and KR) within the destination folder
+**2. CSV File Creation for Patent Document Analysis:** This script generates a CSV file containing essential data for analyzing patent documents from the WPI dataset.  
+
 #SC_Vertical1
 
 #SC_Vertical2
