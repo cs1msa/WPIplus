@@ -2,10 +2,14 @@
 Each folder contains five key files with key information about the specific core vertical and a help CSV file used to generate these files.
 
 ## [VerticalName]_PatDocs.csv
-This file contains a list of all patent documents in the specific vertical, sorted by patent number 
+This file contains a list of all patent documents in the specific vertical, sorted by patent number.
+
 Fields include:
+
             'xml_file_name'
+            
             'ucid'
+            
             'patent_number'
 
 ## [VerticalName]_Pat.csv
