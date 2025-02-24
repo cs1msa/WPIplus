@@ -1,8 +1,24 @@
-## Core Vertical Organization
-Each folder contains five files with key information about the specific vertical. These files include:
+# Core Vertical Organization
+Each folder contains five key files with key information about the specific core vertical and a help CSV file used to generate these files.
 
-1. **\[VerticalName\]_PatDocs.csv** – A list of all patent documents in the specific vertical, sorted by patent number (fields: 'xml_file_name', 'ucid', 'patent_number').
+## [VerticalName]_PatDocs.csv
+This file contains a list of all patent documents in the specific vertical, sorted by patent number (fields: 'xml_file_name', 'ucid', 'patent_number').
 2. **\[VerticalName\]_Pat.csv** – A list of all patent numbers in the specific vertical (field: 'patent_number').
 3. **\[VerticalName\]_ClassInfoIPC.csv** – Contains the IPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'main_classification', 'further_classification').
 4. **\[VerticalName\]_ClassInfoIPCR.csv** – Contains the IPCR classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_ipcr').
 5. **\[VerticalName\]_ClassInfoCPC.csv** – Contains the CPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_cpc').
+
+
+# Five Key Files
+Inside this folder, you'll find five key files—each unlocking a different layer of insight into the EP Core Vertical:
+1. [EP_PatDocs.csv](https://drive.google.com/file/d/1ScyKRt0D0k7etiAzPLiq1jOMOXoLoRms/view?usp=sharing)
+2. [EP_Pat.csv](https://drive.google.com/file/d/1POjDLhP_vE0K2mj1WR1bhrhWVYy5uW6b/view?usp=sharing)
+3. [EP_ClassInfoIPC.csv](https://drive.google.com/file/d/1Vw5xOMN5Jx1nhZu2tW0JXmrJR1vE-6TM/view?usp=sharing)
+4. [EP_ClassInfoIPCR.csv](https://drive.google.com/file/d/1N4lEBCkp_aX-iISjMx0fEL1DnaQbQIVD/view?usp=sharing)
+5. [EP_ClassInfoCPC.csv](https://drive.google.com/file/d/1fOkuOX9s8zOQyv10Rw-rlFycRV57Vm2z/view?usp=sharing)
+
+# Help CSV file
+The (help) CSV file used to generate the above files is:
+- [EP_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Chacl6rF8Yk0_dScPnt4JT3IkEeDXqCv/view?usp=sharing)
+
+The scripts for generating the five key files and the help CSV file can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/Source%20Code) folder.
