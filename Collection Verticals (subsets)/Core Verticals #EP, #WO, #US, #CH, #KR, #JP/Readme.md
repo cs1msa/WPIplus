@@ -2,10 +2,20 @@
 Each folder contains five key files with key information about the specific core vertical and a help CSV file used to generate these files.
 
 ## [VerticalName]_PatDocs.csv
-This file contains a list of all patent documents in the specific vertical, sorted by patent number (fields: 'xml_file_name', 'ucid', 'patent_number').
-2. **\[VerticalName\]_Pat.csv** – A list of all patent numbers in the specific vertical (field: 'patent_number').
-3. **\[VerticalName\]_ClassInfoIPC.csv** – Contains the IPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'main_classification', 'further_classification').
-4. **\[VerticalName\]_ClassInfoIPCR.csv** – Contains the IPCR classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_ipcr').
+This file contains a list of all patent documents in the specific vertical, sorted by patent number 
+Fields include:
+            'xml_file_name'
+            'ucid'
+            'patent_number'
+
+## [VerticalName]_Pat.csv
+This file contains a list of all patent numbers in the specific vertical (field: 'patent_number').
+
+## [VerticalName]_ClassInfoIPC.csv
+This file contains the IPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'main_classification', 'further_classification').
+
+## [VerticalName]_ClassInfoIPCR.csv
+This file contains the IPCR classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_ipcr').
 5. **\[VerticalName\]_ClassInfoCPC.csv** – Contains the CPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_cpc').
 
 
