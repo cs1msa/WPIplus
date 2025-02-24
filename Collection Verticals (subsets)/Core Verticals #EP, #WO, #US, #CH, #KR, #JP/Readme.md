@@ -13,10 +13,21 @@ Fields include:
             'patent_number'
 
 ## [VerticalName]_Pat.csv
-This file contains a list of all patent numbers in the specific vertical (field: 'patent_number').
+This file contains a list of all patent numbers in the specific vertical.
+
+Fields include:
+
+            'patent_number'
 
 ## [VerticalName]_ClassInfoIPC.csv
-This file contains the IPC classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'main_classification', 'further_classification').
+This file contains the IPC classification codes for all patent documents in the specific vertical, sorted by patent number. 
+
+Fields include:
+            'ucid'
+            
+            'main_classification'
+            
+            'further_classification'
 
 ## [VerticalName]_ClassInfoIPCR.csv
 This file contains the IPCR classification codes for all patent documents in the specific vertical, sorted by patent number (fields: 'ucid', 'classification_ipcr').
