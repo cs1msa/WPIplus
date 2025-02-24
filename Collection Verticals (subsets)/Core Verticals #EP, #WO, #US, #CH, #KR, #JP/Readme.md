@@ -49,3 +49,9 @@ Fields include:
             'ucid'
             
             'classification_cpc'
+
+## Help CSV file
+The (help) CSV file contains essential data for analyzing patent documents in a core vertical of the WPI dataset.
+
+## Source Code
+Scripts for generating the help CSV file and the five key files.
