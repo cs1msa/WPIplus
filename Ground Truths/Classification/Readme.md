@@ -9,15 +9,13 @@ In the first stage, we analyze the distribution of subclass-level labels across 
 - #CLTS3: The third test set includes patents with well-represented labels, specifically those occurring in over 50 patents (#CLTS3a) or more than 100 patents (#CLTS3b).
 - #CLTS4: The fourth test set includes patents with few-shot labels, which are those appearing in fewer than 50 patents (#CLTS4a) or fewer than 100 patents (#CLTS4b), to evaluate performance on rare categories.
 
-  ## Generating Test Sets
-  After identifying the labels of interest for each test set, we curate the test sets by selecting patents that meet the following conditions:
-  - Complete textual fields: The patent must have all three key fields (abstract, description, and claims) fully populated.
-  - B kind code: The patent must be assigned a B kind code (e.g., B1, B2, B3, etc.).
-  - Issued date: The patent must have an issue date after October 1, 2015.
-  - Relevant labels: The patent must include at least one label from the respective test set’s label set.
+## Generating Test Sets
+After identifying the labels of interest for each test set, we curate the test sets by selecting patents that meet the following conditions:
+- Complete textual fields: The patent must have all three key fields (abstract, description, and claims) fully populated.
+- B kind code: The patent must be assigned a B kind code (e.g., B1, B2, B3, etc.).
+- Issued date: The patent must have an issue date after October 1, 2015.
+- Relevant labels: The patent must include at least one label from the respective test set’s label set.
 
 # Generalizable Methodology
 
 This process is repeatable for constructing classification test sets across different verticals and classification schemes, ensuring consistent evaluation across various patent datasets.
-
-This structured methodology allows for accurate, diverse, and reliable test sets that account for varying data distributions and represent different label categories.
