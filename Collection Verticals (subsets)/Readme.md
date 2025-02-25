@@ -1,7 +1,7 @@
 # Collection Verticals Organization 
 ## Core Vertical \#EP, \#WO, \#US, \#CH, \#KR, \#JP
 These are the core verticals containing all the patent files included in the WPI collection.
-## English With All Text Vertical \#(EPO,WO,US)en-all
+## "All English Text" Vertical \#(EPO,WO,US)en-all
 This vertical contains all the patent documents that have all their primary text fields (abstract, description, claims) in the English language. 
 ## Virtual Patent EP Vertical \#VPep
 This vertical contains the virtual patents of the #EP vertical that have been created by merging the most updated information about a single patent that normally exists in different patent documents having various kind codes (e.g. A1, A2, B1, B2). 
