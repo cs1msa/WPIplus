@@ -1,5 +1,5 @@
 # EP Analysis
-This folder will contain the analysis for the EP Core Vertical. It includes scripts and data related to both statistical and NLP analysis of patent documents within the EP vertical, offering valuable insights into the specific characteristics and trends of this vertical. 
+This folder contains the analysis for the EP Core Vertical. It includes statistical, NLP, and other analytical results of patent documents within the EP vertical, providing valuable insights into the specific characteristics, trends, and patterns of this vertical. These analyses will help in understanding the data structure, classification, and trends in patent filings within the EP domain, facilitating more informed decision-making and deeper exploration of the dataset.
 
 ## Plotting the Distribution of Patent Documents per Kind Code
 ![plot_distribution_patdocs_kindcode](plot_distribution_patdocs_kindcode.png)
