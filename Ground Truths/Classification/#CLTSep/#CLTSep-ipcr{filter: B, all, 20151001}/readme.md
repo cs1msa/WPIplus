@@ -3,7 +3,6 @@
 To define the labels for each test set, we first analyze the subclass-level distribution of IPCR labels across the EP vertical. The process is as follows:
 
 1. Extract IPCR Labels from EP Patents:
-
 We begin by extracting the IPCR labels from the EP patents.
 
 2. Infer Subclass and Calculate Frequencies:
