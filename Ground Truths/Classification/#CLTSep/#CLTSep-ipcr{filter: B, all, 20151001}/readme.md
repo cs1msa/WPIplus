@@ -3,11 +3,9 @@
 To define the labels for each test set, we first analyze the subclass-level distribution of IPCR labels across the EP vertical. The process is as follows:
 
 **1. Extract IPCR Labels from EP Patents:**
-
 We begin by extracting the IPCR labels from the EP patents.
 
 **2. Infer Subclass and Calculate Frequencies:**
-
 After extracting the labels, we infer the subclass for each patent and calculate the frequency of each subclass label. In cases where a patent exists with more than one kind code (e.g., EP-2678998-A1.xml and EP-2678998-B1.xml), we select the latest kind code as it carries the most up-to-date and accurate classification information for that patent.
 
 **3. Resulting Data:**
@@ -30,8 +28,11 @@ We then assign IPCR labels to each of the test sets based on the predefined crit
 In the second stage, we search for patent documents that meet the following criteria and contain at least one of the labels assigned to the respective test set:
 
 **1.Textual Fields Completion:** The patent must have all textual fields (abstract, description, and claims) completed.
+
 **2. Kind Code Filter:** The patent must be assigned a B kind code (e.g., B1, B2, B3, etc.).
+
 **3. Issued Date Filter:** The patent must have been issued after October 1, 2015.
+
 **4. Label Match:** The patent must include at least one of the assigned labels from the respective test set.
 
 After applying these filters, 6,181 patent documents are identified, satisfying these criteria. These documents are then used to construct the following test set collections:
@@ -39,27 +40,27 @@ Test Set Collections
 
 -**#EP-CLTS1:**
 
-        This test set contains 6,181 patent documents (corresponding to 2,847 single patents).
-        
-        Coverage: 461 subclass labels out of 632 available labels, leaving 171 labels missing from the test set.
+This test set contains 6,181 patent documents (corresponding to 2,847 single patents).
+
+Coverage: 461 subclass labels out of 632 available labels, leaving 171 labels missing from the test set.
 
 -**#EP-CLTS2:**
 
-        This test set contains 4,267 patent documents (corresponding to 1,967 single patents).
-        
-        Coverage: 428 subclass labels out of 565 initially assigned labels. 33 subclass labels are included from outliers.
+This test set contains 4,267 patent documents (corresponding to 1,967 single patents).
+
+Coverage: 428 subclass labels out of 565 initially assigned labels. 33 subclass labels are included from outliers.
 
 -**#EP-CLTS3:**
         
-        Alternative 1 (>50 patents): Includes 6,179 patent documents (corresponding to 2,846 single patents) with 456 labels out of 565 assigned, plus 4 additional labels not included in the test set labels.
+Alternative 1 (>50 patents): Includes 6,179 patent documents (corresponding to 2,846 single patents) with 456 labels out of 565 assigned, plus 4 additional labels not included in the test set labels.
         
-        Alternative 2 (>100 patents): Includes 6,175 patent documents (corresponding to 2,844 single patents) with 443 labels out of 515 assigned, plus 16 additional labels not included in the test set labels.
+Alternative 2 (>100 patents): Includes 6,175 patent documents (corresponding to 2,844 single patents) with 443 labels out of 515 assigned, plus 16 additional labels not included in the test set labels.
 
 -**#EP-CLTS4:**
         
-        Alternative 1 (<50 patents): Includes 5 few-shot subclass labels (out of 61) that are present in only 13 patent documents (corresponding to 6 single patents). These documents also include 10 labels not categorized as few-shot labels.
+Alternative 1 (<50 patents): Includes 5 few-shot subclass labels (out of 61) that are present in only 13 patent documents (corresponding to 6 single patents). These documents also include 10 labels not categorized as few-shot labels.
         
-        Alternative 2 (<100 patents): Includes 51 patent documents (corresponding to 23 single patents) that cover 18 few-shot subclass labels out of 108, plus 36 additional labels not categorized as few-shot labels.
+Alternative 2 (<100 patents): Includes 51 patent documents (corresponding to 23 single patents) that cover 18 few-shot subclass labels out of 108, plus 36 additional labels not categorized as few-shot labels.
 
 # Conclusion
 
