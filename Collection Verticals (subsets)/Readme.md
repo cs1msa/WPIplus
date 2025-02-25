@@ -5,4 +5,5 @@ These are the core verticals containing all the patent files included in the WPI
 This vertical contains all the patent documents that have all their primary text fields (abstract, description, claims) in the English language. 
 ## Virtual Patent EP Vertical \#VPep
 A Virtual Patent (VP) is a document that merges the most updated information about a single patent that normally exists in different patent documents having various kind codes (e.g. A1, A2, B1, B2). Working with the most up-to-date information about a patent often necessitates merging data from multiple documents, as more recent patent publications may only contain amended or updated sections rather than the complete patent document. Figure 1 shows an example of how a VP representing a single patent is produced in WPI+ by merging fields from different patent files. 
+
 ![merging_approach_new](https://github.com/user-attachments/assets/063f6fe2-a71e-4cd6-8669-ba574e9e7a99)
