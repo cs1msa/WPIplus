@@ -9,3 +9,10 @@ This folder contains the analysis for the EP Core Vertical. It includes statisti
 
 ## Plotting the Distribution of Patent Documents per IPCR Section Label
 ![plot_distribution_pat_sectionlabel_ipcr](plot_distribution_pat_sectionlabel_ipcr.png)
+
+# Help CSV file
+The (help) CSV file used to generate the above files is:
+- [EP_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Chacl6rF8Yk0_dScPnt4JT3IkEeDXqCv/view?usp=sharing)
+
+# Source Code
+The scripts for generating these plots can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Analysis/Source%20Code) folder.
