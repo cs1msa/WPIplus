@@ -1,32 +1,3 @@
-# Classification Test Set Organization 
-Each #CLST folder contains six CLTS files referring to virtual patents (VP) and six CLTS files referring to individual patent documents, the help CSV file used to generate these files and links to the relevant source code.
-
-## CLTS files referring to VP 
-Inside each #CLST folder, you'll find six CLTS files referring to VP:
-
-#CLTS[VerticalName]_VP_[ClassificationSystem]_1.csv
-#CLTS[VerticalName]_VP_[ClassificationSystem]_2.csv
-#CLTS[VerticalName]_VP_[ClassificationSystem]_3a.csv
-#CLTS[VerticalName]_VP_[ClassificationSystem]_3b.csv
-#CLTS[VerticalName]_VP_[ClassificationSystem]_4a.csv
-#CLTS[VerticalName]_VP_[ClassificationSystem]_4b.csv
-
-## CLTS files referring to Patent Documents 
-Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
-
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_1.csv
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_2.csv
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3a.csv
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3b.csv
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4a.csv
-#CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4b.csv
-
-## Help CSV file
-Inside each #CLST folder, you'll find the (help) CSV file used to generate the above files. This file contains essential data for analyzing patent documents in a core vertical of the WPI dataset. 
-
-## Source Code
-Scripts for generating the help CSV file and the #CLTS files.
-
 # Test Set Construction Methodology
 
 Our test set construction process consists of two main stages:
@@ -45,6 +16,35 @@ After identifying the labels of interest for each test set, we curate the test s
 - **Issued date**: The patent must have an issue date after October 1, 2015.
 - **Relevant labels**: The patent must include at least one label from the respective test set’s label set.
 
-# Generalizable Methodology
+## Generalizable Methodology
 
 This process is repeatable for constructing classification test sets across different verticals and classification schemes, ensuring consistent evaluation across various patent datasets.
+
+# Classification Test Set Organization 
+Each #CLST folder contains six CLTS files referring to virtual patents (VP) and six CLTS files referring to individual patent documents, the help CSV file used to generate these files and links to the relevant source code.
+
+## CLTS files referring to VP 
+Inside each #CLST folder, you'll find six CLTS files referring to VP:
+
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_1.csv
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_2.csv
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_3a.csv
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_3b.csv
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_4a.csv
+- #CLTS[VerticalName]_VP_[ClassificationSystem]_4b.csv
+
+## CLTS files referring to Patent Documents 
+Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
+
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_1.csv
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_2.csv
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3a.csv
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3b.csv
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4a.csv
+- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4b.csv
+
+## Help CSV file
+Inside each #CLST folder, you'll find the (help) CSV file used to generate the above files. This file contains essential data for analyzing patent documents in a core vertical of the WPI dataset. 
+
+## Source Code
+Scripts for generating the help CSV file and the #CLTS files.
