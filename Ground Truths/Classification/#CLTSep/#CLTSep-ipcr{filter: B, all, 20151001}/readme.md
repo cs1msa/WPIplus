@@ -24,7 +24,7 @@ The (help) CSV file used to generate the above files is:
 - [EP_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Chacl6rF8Yk0_dScPnt4JT3IkEeDXqCv/view?usp=sharing)
 
 ## Source Code
-The scripts for generating the five key files and the help CSV file can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Ground%20Truths/Classification/Source%20Code) folder.
+The scripts for generating the key files and the help CSV file can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Ground%20Truths/Classification/Source%20Code) folder.
 
 # Demonstration of the Test Set Construction Methodology
 ## Stage 1: Label Definition and Analysis
