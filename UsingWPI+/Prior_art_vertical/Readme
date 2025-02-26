@@ -1,1 +1,11 @@
+Here we provide scripts to replicate tasks as done to create the Prior art vertical (#(EPO,WO,US)en-all).
 
+The wpi_move_valid_docs_for_prior_art_vertical.py moves the patents that contains all the patent documents that have
+all their primary text fields (abstract, description, claims) in the English language
+
+The wpi_prior_art_vertical_keep_only_patents.py removes patent documnets in order to keep one document
+per patent. When multiple, it uses the latest one.
+
+The wpi_to_trec_format.py converts WPI from XML to trec format
+
+The wpi_ground_truths.py create the topics and grounds truths.
