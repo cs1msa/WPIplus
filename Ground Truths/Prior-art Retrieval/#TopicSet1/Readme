@@ -1,4 +1,4 @@
-#TopicSet1 contains a total of 2,592 topics, each associated with relevant judgments. The topics are divided into training and testing sets. The test set consists of 923 topics, each having 3 or more relevant documents, while the training set contains 1,669 topics, each with exactly 2 relevant documents.
+# TopicSet1 contains a total of 2,592 topics, each associated with relevant judgments. The topics are divided into training and testing sets. The test set consists of 923 topics, each having 3 or more relevant documents, while the training set contains 1,669 topics, each with exactly 2 relevant documents.
 
 Links:
 All_topics: https://drive.google.com/drive/folders/1WxEbo5WDWswTPqWlyOpjxd7mOhbq14Ig?usp=sharing
