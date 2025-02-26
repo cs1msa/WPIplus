@@ -1,4 +1,33 @@
-# Stage 1: Label Definition and Analysis
+# Classification Test Set Organization 
+## CLTS files referring to VP 
+Inside each #CLST folder, you'll find six CLTS files referring to VP:
+
+- #CLTSep\_VP_ipcr_1.csv
+- #CLTSep\_VP_ipcr_2.csv
+- #CLTSep\_VP_ipcr_3a.csv
+- #CLTSep\_VP_ipcr_3b.csv
+- #CLTSep\_VP_ipcr_4a.csv
+- #CLTSep\_VP_ipcr_4b.csv
+
+## CLTS files referring to Patent Documents 
+Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
+
+- #CLTSep\_PatDocs_ipcr_1.csv
+- #CLTSep\_PatDocs_ipcr_2.csv
+- #CLTSep\_PatDocs_ipcr_3a.csv
+- #CLTSep\_PatDocs_ipcr_3b.csv
+- #CLTSep\_PatDocs_ipcr_4a.csv
+- #CLTSep\_PatDocs_ipcr_4b.csv
+
+## Help CSV file
+The (help) CSV file used to generate the above files is:
+- [EP_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Chacl6rF8Yk0_dScPnt4JT3IkEeDXqCv/view?usp=sharing)
+
+## Source Code
+The scripts for generating the five key files and the help CSV file can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Ground%20Truths/Classification/Source%20Code) folder.
+
+# Demonstration of the Test Set Construction Methodology
+## Stage 1: Label Definition and Analysis
 
 To define the labels for each test set, we first analyze the subclass-level distribution of IPCR labels across the EP vertical. The process is as follows:
 
@@ -11,7 +40,7 @@ After extracting the labels, we infer the subclass for each patent and calculate
 **3. Resulting Data:**
 After processing the labels, we are left with 469,757 patent documents from the latest kind codes, containing 7,163 group labels and 632 subclass labels.
 
-## Test Set Assignment
+### Test Set Assignment
 
 We then assign IPCR labels to each of the test sets based on the predefined criteria:
 - **#EP-CLTS1:** This test set includes all available subclass labels (632 total).
@@ -23,7 +52,7 @@ We then assign IPCR labels to each of the test sets based on the predefined crit
 61 labels appearing in fewer than 50 patents (#CLTS4a), or
 108 labels appearing in fewer than 100 patents (#CLTS4b).
 
-# Stage 2: Patent Document Selection
+## Stage 2: Patent Document Selection
 
 In the second stage, we search for patent documents that meet the following criteria and contain at least one of the labels assigned to the respective test set:
 
@@ -56,6 +85,6 @@ Test Set Collections
         
 **Alternative 2 (<100 patents):** Includes 51 patent documents (corresponding to 23 single patents) that cover 18 few-shot subclass labels out of 108, plus 36 additional labels not categorized as few-shot labels.
 
-# Conclusion
+## Conclusion
 
 The construction of the classification test sets maintains the same label distribution found across the entire WPI collection, ensuring that the test sets accurately reflect the overall distribution of categorization in the dataset. This methodology can be replicated for the construction of test sets for other verticals and classification schemes as needed.
