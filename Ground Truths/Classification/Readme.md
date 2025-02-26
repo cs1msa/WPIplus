@@ -26,7 +26,7 @@ Each #CLST folder contains six CLTS files referring to virtual patents (VP) and 
 ## CLTS files referring to VP 
 Inside each #CLST folder, you'll find six CLTS files referring to VP:
 
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_1.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_1.csv
 - #CLTS[VerticalName]_VP_[ClassificationSystem]_2.csv
 - #CLTS[VerticalName]_VP_[ClassificationSystem]_3a.csv
 - #CLTS[VerticalName]_VP_[ClassificationSystem]_3b.csv
