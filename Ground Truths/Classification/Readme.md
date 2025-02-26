@@ -27,21 +27,21 @@ Each #CLST folder contains six CLTS files referring to virtual patents (VP) and 
 Inside each #CLST folder, you'll find six CLTS files referring to VP:
 
 - #CLTS[VerticalName]\_VP_[ClassificationSystem]_1.csv
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_2.csv
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_3a.csv
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_3b.csv
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_4a.csv
-- #CLTS[VerticalName]_VP_[ClassificationSystem]_4b.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_2.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_3a.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_3b.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_4a.csv
+- #CLTS[VerticalName]\_VP_[ClassificationSystem]_4b.csv
 
 ## CLTS files referring to Patent Documents 
 Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
 
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_1.csv
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_2.csv
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3a.csv
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_3b.csv
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4a.csv
-- #CLTS[VerticalName]_PatDocs_[ClassificationSystem]_4b.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_1.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_2.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_3a.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_3b.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_4a.csv
+- #CLTS[VerticalName]\_PatDocs_[ClassificationSystem]_4b.csv
 
 ## Help CSV file
 Inside each #CLST folder, you'll find the (help) CSV file used to generate the above files. This file contains essential data for analyzing patent documents in a core vertical of the WPI dataset. 
