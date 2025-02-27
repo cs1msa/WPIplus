@@ -13,3 +13,5 @@ Beyond standard abstract generation, the WPI collection supports additional summ
 - The summary segment of the description is a valuable alternative to the abstract, often offering a more comprehensive description of the invention. A model can be trained to generate or extract this segment which is available in the WPI collection.
 ### First Claim Extraction/Generation:
 - The first claim is often considered equivalent to the summary segment, providing a concise legal definition of the invention. A model can be trained to generate or extract the first claim which is available in the WPI collection.
+
+**_(A specific summarization example will be uploaded soon...)_**
