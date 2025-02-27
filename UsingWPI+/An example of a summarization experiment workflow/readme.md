@@ -2,7 +2,7 @@
 The WPI collection is a valuable resource for training and fine-tuning summarization models, provided that it is carefully curated to exclude the targeted information. Additionally, it can be used for evaluating existing summarization models.
 
 ## Summarization Task
-For training/fine-tuning new summarization models, different sections of the patent document can serve as input:
+For training/fine-tuning new summarization models, different sections of the patent can serve as input:
 - Description, claims, or both can be used to generate summaries, with the abstract acting as the reference output.
 - The [summarization test sets](https://github.com/cs1msa/WPIplus/tree/main/Ground%20Truths/Summarization) provide additional information that can enhance model performance, including the brief description, summary segment, and first claim.
 
