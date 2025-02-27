@@ -32,3 +32,13 @@ Model evaluation was performed using precision, recall, and F1-score to assess c
 | Classifier #1 (Abstract) | 77.49%	 | 64.87% | 70.62% |
 | Classifier #2 (Description)	| 76.47%  | 68.14%  | 72.07%  |
 | Classifier #3 (Claims) | 76.68%  | 64.54%	  | 70.09%  |
+
+## Help files
+The testing dataset (processed):
+- [CLTSep_VP_ipcr_1_test_dataset(processed).csv](https://drive.google.com/file/d/11DJqucRTxIfFUG_A0ZB35zDQG3xJeQUE/view?usp=sharing)
+
+The training dataset (Due to limited space, we provide only the UCID of patent documents for the training dataset):
+- [CLTSep_VP_ipcr_1_train_dataset_PatDocs.csv](https://drive.google.com/file/d/1U7pJAsXwh8jSA2Og_QvvMjaCvzM8w-oI/view?usp=sharing)
+
+## Source Code
+The scripts for generating the help files and the script for training the classifiers can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/UsingWPI%2B/An%20example%20of%20a%20classification%20experiment%20workflow/Source%20Code) folder.
