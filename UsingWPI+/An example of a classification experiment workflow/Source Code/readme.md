@@ -7,3 +7,7 @@ This folder contains scripts that assist in the creation of the training and tes
 ## CLTS Training Dataset Creation
 - [CLTS Training Dataset Creation](https://github.com/cs1msa/WPIplus/blob/main/UsingWPI%2B/An%20example%20of%20a%20classification%20experiment%20workflow/Source%20Code/CLTS%20Training%20Dataset%20Creation.ipynb): This script creates training datasets corresponding to the classification test sets (CLTS) by retrieving and structuring patent data from the WPI collection. The process is similar to the [CLTS Testing Dataset Creation](), with one key difference that instead of retrieving patent data included in the CLTS, this script retrieves all patent data that is NOT part of the CLTS.
 
+## Train Classifiers
+- [Train_3_classifiers](https://github.com/cs1msa/WPIplus/blob/main/UsingWPI%2B/An%20example%20of%20a%20classification%20experiment%20workflow/Source%20Code/Train_3_classifiers.py): This script fine-tunes the Bert-for-Patents model for a classification task using the training dataset of the
+Classification Test Set 1 for the #EP core vertical and IPCR labels. The model is trained seperately for each section (abstract, description and claims) and evaluated using precision, recall, and F1-score.
+
