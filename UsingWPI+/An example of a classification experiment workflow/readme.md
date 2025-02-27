@@ -18,10 +18,10 @@ We employed the [Bert-for-Patents model](https://huggingface.co/anferico/bert-fo
 3. Final Dense output layer
 
 Training was conducted with the following parameters:
-🔹 128 tokens for abstracts
-🔹 256 tokens for descriptions and claims
-🔹 3 epochs
-🔹 Batch size: 4
+- 128 tokens for abstracts
+- 256 tokens for descriptions and claims
+- Epochs: 3
+- Batch size: 4
 
 ## Model Evaluation
 
