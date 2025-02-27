@@ -32,7 +32,7 @@ Model evaluation was performed using precision, recall, and F1-score to assess c
 |Classifier #2 (Description)	|76.47%	|68.14%	|72.07%|
 |Classifier #3 (Claims)	|76.68%	|64.54%	|70.09%|
 
-| First Header  | Second Header | Second Header | 
+|   | Precision | Recall | F1-Score | 
 | ------------- | ------------- | ------------- |
 | Content Cell  | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  |
