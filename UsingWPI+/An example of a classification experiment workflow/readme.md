@@ -28,7 +28,4 @@ Training was conducted with the following parameters:
 Model evaluation was performed using precision, recall, and F1-score to assess classification performance.
 
 | ------------- | Precision | Recall | F1-Score | 
-| ------------- | ------------- | ------------- |
-| Classifier #1 (Abstract) | 77.49%	 | 64.87% | 70.62% |
-| Classifier #2 (Description)	| 76.47%  | 68.14%  | 72.07%  |
-| Classifier #3 (Claims) | 76.68%  | 64.54%	  | 70.09%  |
+
