@@ -27,7 +27,7 @@ Training was conducted with the following parameters:
 
 Model evaluation was performed using precision, recall, and F1-score to assess classification performance.
 
-Table: A Caption
+Table: Classification performance using a prediction threshold of 0.5
 | Classifier type | Precision | Recall | F1-Score | 
 | ------------- | ------------- | ------------- | ------------- |
 | Classifier #1 (Abstract) | 77.49%	 | 64.87% | 70.62% |
