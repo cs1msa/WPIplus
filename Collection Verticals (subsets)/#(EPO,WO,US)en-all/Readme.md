@@ -10,5 +10,5 @@ we include only the 1,803,293 unique patents as members of this vertical. By doi
 each patent is represented by only one patent document, rather than multiple. This approach helps avoid a common source of confusion, 
 particularly for researchers who may not be familiar with the unique characteristics and intricacies of patent documents. 
 
-The IDs composing this vertical are as follows:
+The patent IDs/files composing this vertical are as follows:
 https://drive.google.com/file/d/17g6XzmTnXIStdTUhrZki8PpHwU93bh2s/view?usp=sharing
