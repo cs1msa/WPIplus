@@ -1,3 +1,4 @@
+# Description of the Vertical
 For the prior-art task, we developed a new vertical called #(EPO, WO, US)en-all. 
 This subset was created to address potential issues and biases arising from incomplete text sections in patent documents. 
 Specifically, this vertical includes only those patent documents that contain all critical sections—Abstract, Description, and Claims—in English, ensuring a more reliable and consistent dataset for analysis. 
