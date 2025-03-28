@@ -8,7 +8,7 @@ As an example, we trained three classifiers on the EP vertical and evaluated the
 
 ## Data Preparation
 
-To prepare the training and testing datasets, we extracted and structured patent data from the WPI collection. For the training dataset, we retain only patents that have all textual fields completed (abstract, description, claims). Moreover, for both datasets labels are converted to subclass format (e.g., "G06F 17/30" → "G06F" and the Description and Claims sections are filtered to retain the first 300 words.
+To prepare the training and testing datasets, we extracted and structured patent data from the WPI collection. For the training dataset, we retain only patents that have all textual fields completed (abstract, description, claims). Moreover, for both datasets labels are converted to subclass format (e.g., "G06F 17/30" → "G06F") and the Description and Claims sections are filtered to retain the first 300 words.
 
 ## Model Training Details
 
@@ -35,11 +35,12 @@ Table: Classification performance using a prediction threshold of 0.5
 | Classifier #3 (Claims) | 76.68%  | 64.54%	  | 70.09%  |
 
 ## Help files
-The testing dataset (processed):
+The testing dataset (processed as described above in "Data Preparation"):
 - [CLTSep_VP_ipcr_1_test_dataset(processed).csv](https://drive.google.com/file/d/11DJqucRTxIfFUG_A0ZB35zDQG3xJeQUE/view?usp=sharing)
 
-The training dataset (Due to limited space, we provide only the UCID of patent documents for the training dataset):
+The training dataset. We provide the UCID of patent documents included in the training dataset and the processed dataset as described above in "Data Preparation"):
 - [CLTSep_VP_ipcr_1_train_dataset_PatDocs.csv](https://drive.google.com/file/d/1U7pJAsXwh8jSA2Og_QvvMjaCvzM8w-oI/view?usp=sharing)
+- [CLTSep_VP_ipcr_1_train_dataset(processed).csv](https://drive.google.com/file/d/1bTR1R98HKVlGZsUx8Wz1MZxAQba65xEJ/view?usp=sharing)
 
 ## Source Code
 The scripts for generating the help files and the script for training the classifiers can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/UsingWPI%2B/An%20example%20of%20a%20classification%20experiment%20workflow/Source%20Code) folder.
