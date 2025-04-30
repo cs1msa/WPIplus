@@ -29,11 +29,10 @@ Model evaluation was performed using precision, recall, and F1-score to assess c
 
 Table: Classification performance using a prediction threshold of 0.5
 | Classifier type |  P@3 | R@3 | F1@3 |  P@5 | R@5 | F1@5  | P@10 | R@10 | F1@10 |
-| ------------- | ------------- | ------------- | ------------- |
-| Classifier #1 (Abstract) | 77.49%	 | 64.87% | 70.62% |
-| Classifier #2 (Description)	| 76.47%  | 68.14%  | 72.07%  |
-| Classifier #3 (Claims) | 76.68%  | 64.54%	  | 70.09%  |
-
+| ------------- | ------------- | ------------- | ------------- |------------- | ------------- | ------------- |------------- | ------------- | ------------- |
+| Classifier #1 (Abstract) | 44.56%	 | 79.62% | 57.14% | 29.32% | 87.30% | 43.89% | 15.61% | 92.99% | 26.74% |
+| Classifier #2 (Description)	| 45.33%  | 81.00%  | 58.13%  | 29.82% | 88.81% | 44.65% | 15.78% | 94.00% | 27.03% |
+| Classifier #3 (Claims) | 44.29%  | 79.14%	  | 56.80%  | 28.99% | 86.32% | 43.40% | 15.48% | 92.22% | 26.51% |
 
 ## Help files
 The testing dataset (processed as described above in "Data Preparation"):
