@@ -30,7 +30,7 @@ You'll find six CLTS files referring to subclass codes (associated with their fr
 - #CLTSus_codes_ipcr_4b.csv
 
 ## Help CSV file
-- The (help) CSV file used to generate the above files is:
+The (help) CSV file used to generate the above files is:
 - [US_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Jakgn3t5r7aC8UdmOLy3SXKVl6PHl6KT/view?usp=sharing)
 
 ## Source Code
