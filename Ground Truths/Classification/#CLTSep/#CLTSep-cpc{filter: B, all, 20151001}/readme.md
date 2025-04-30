@@ -18,6 +18,16 @@ Inside each #CLST folder, you'll find six CLTS files referring to patent documen
 - #CLTSep\_PatDocs_cpc_4a.csv
 - #CLTSep\_PatDocs_cpc_4b.csv
 
+# CLTS files referring to Subclass Codes (associated with their frequency) belonging to each classification test set
+You'll find six CLTS files referring to codes:
+
+- #CLTSep\_codes_cpc_1.csv
+- #CLTSep\_codes_cpc_2.csv
+- #CLTSep\_codes_cpc_3a.csv
+- #CLTSep\_codes_cpc_3b.csv
+- #CLTSep\_codes_cpc_4a.csv
+- #CLTSep\_codes_cpc_4b.csv
+- 
 # Help CSV file
 The (help) CSV file used to generate the above files is:
 - [EP_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Chacl6rF8Yk0_dScPnt4JT3IkEeDXqCv/view?usp=sharing)
