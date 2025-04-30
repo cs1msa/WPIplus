@@ -29,8 +29,8 @@ Model evaluation was performed using precision, recall, and F1-score to assess c
 
 Table: Classification performance using a prediction threshold of 0.5
 | Classifier type | Precision @3 | Recall @3 | F1-Score @3 | 
-|  | @3 | @3 | @3 | 
 | ------------- | ------------- | ------------- | ------------- |
+|  | @3 | @3 | @3 | 
 | Classifier #1 (Abstract) | 77.49%	 | 64.87% | 70.62% |
 | Classifier #2 (Description)	| 76.47%  | 68.14%  | 72.07%  |
 | Classifier #3 (Claims) | 76.68%  | 64.54%	  | 70.09%  |
