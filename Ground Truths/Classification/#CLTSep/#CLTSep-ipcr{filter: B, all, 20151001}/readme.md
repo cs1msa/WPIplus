@@ -22,12 +22,12 @@ Inside each #CLST folder, you'll find six CLTS files referring to patent documen
 ## CLTS files referring to Subclass Codes
 You'll find six CLTS files referring to subclass codes (associated with their frequency) belonging to the specific classification test set:
 
-    #CLTSep_codes_ipcr_1.csv
-    #CLTSep_codes_ipcr_2.csv
-    #CLTSep_codes_ipcr_3a.csv
-    #CLTSep_codes_ipcr_3b.csv
-    #CLTSep_codes_ipcr_4a.csv
-    #CLTSep_codes_ipcr_4b.csv
+- #CLTSep_codes_ipcr_1.csv
+- #CLTSep_codes_ipcr_2.csv
+- #CLTSep_codes_ipcr_3a.csv
+- #CLTSep_codes_ipcr_3b.csv
+- #CLTSep_codes_ipcr_4a.csv
+- #CLTSep_codes_ipcr_4b.csv
 
 ## Help CSV file
 The (help) CSV file used to generate the above files is:
