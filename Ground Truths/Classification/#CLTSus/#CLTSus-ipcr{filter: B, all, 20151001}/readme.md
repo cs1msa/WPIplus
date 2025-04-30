@@ -31,7 +31,7 @@ You'll find six CLTS files referring to subclass codes (associated with their fr
 
 ## Help CSV file
 - The (help) CSV file used to generate the above files is:
-- [US_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Jakgn3t5r7aC8UdmOLy3SXKVl6PHl6KT/view?usp=sharing
+- [US_csv_file_for_wpi_analysis.csv](https://drive.google.com/file/d/1Jakgn3t5r7aC8UdmOLy3SXKVl6PHl6KT/view?usp=sharing)
 
 ## Source Code
 The scripts for generating the CLTS files and the help CSV file can be found under the [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Ground%20Truths/Classification/Source%20Code) folder.
