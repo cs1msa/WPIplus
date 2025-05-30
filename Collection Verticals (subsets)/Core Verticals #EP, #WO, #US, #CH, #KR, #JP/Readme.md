@@ -1,5 +1,5 @@
 # Core Vertical Organization
-Each folder contains five key files with key information about the specific core vertical, the help CSV file used to generate these files and links to the relevant source code.
+Each folder contains a core vertical file (*.vertical) along with five supplementary files providing key information related to the specific vertical. Additionally, a help CSV file used in generating these outputs is included, along with links to the relevant source code.
 
 ## Five Key Files 
 ### [VerticalName]_PatDocs.csv
