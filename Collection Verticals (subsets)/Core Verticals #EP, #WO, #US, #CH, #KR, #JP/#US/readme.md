@@ -1,4 +1,6 @@
-# Five Key Files
+# Vertical File
+
+# Five Supplementary Files
 Inside this folder, you'll find five key files—each unlocking a different layer of insight into the EP Core Vertical:
 1. [US_PatDocs.csv](https://drive.google.com/file/d/14nVuAJcC2XBnXMHI3MzM3M7zhYJFuKVl/view?usp=sharing)
 2. [US_Pat.csv](https://drive.google.com/file/d/114brLOj6gho3DairogZqLURYuAxAl32m/view?usp=sharing)
