@@ -1,4 +1,8 @@
-# Five Key Files
+# Vertical File
+The files of the vertical are listed here:
+- [EP.vertical](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/Core%20Verticals%20%23EP%2C%20%23WO%2C%20%23US%2C%20%23CH%2C%20%23KR%2C%20%23JP/%23EP/EP.vertical)
+
+# Five Supplementary Files
 Inside this folder, you'll find five key files—each unlocking a different layer of insight into the EP Core Vertical:
 1. [EP_PatDocs.csv](https://drive.google.com/file/d/1ScyKRt0D0k7etiAzPLiq1jOMOXoLoRms/view?usp=sharing)
 2. [EP_Pat.csv](https://drive.google.com/file/d/1POjDLhP_vE0K2mj1WR1bhrhWVYy5uW6b/view?usp=sharing)
