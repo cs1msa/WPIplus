@@ -9,6 +9,7 @@ This file provides the list of patent documents included in the corresponding ve
 ### [VerticalName]_PatDocs.csv
 This file contains a list of all patent documents in the specific vertical, sorted by patent number.
 This file contains three columns:
+
             'xml_file_name'
             'ucid'
             'patent_number'
