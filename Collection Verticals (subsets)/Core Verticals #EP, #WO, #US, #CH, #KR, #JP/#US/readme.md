@@ -1,4 +1,6 @@
 # Vertical File
+The files of the vertical are listed here:
+- [US.vertical]()
 
 # Five Supplementary Files
 Inside this folder, you'll find five key files—each unlocking a different layer of insight into the EP Core Vertical:
