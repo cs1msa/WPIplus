@@ -1,7 +1,10 @@
 # Core Vertical Organization
 Each folder contains a core vertical file (*.vertical) along with five supplementary files providing key information related to the specific vertical. Additionally, a help CSV file used in generating these outputs is included, along with links to the relevant source code.
 
-## Five Key Files 
+## Vertical File
+This file provides the list of patent documents included in the corresponding vertical.
+
+## Five Supplementary Files 
 ### [VerticalName]_PatDocs.csv
 This file contains a list of all patent documents in the specific vertical, sorted by patent number.
 
