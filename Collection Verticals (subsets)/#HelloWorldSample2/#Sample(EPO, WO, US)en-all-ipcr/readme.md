@@ -1,29 +1,37 @@
 📊 Dataset Statistics Overview
+
 🧾 General Information
 
-    Total patents: 93,589
+Total patents: 93,589
 
-    Total labels (subclass + group): 5,392
+    Total labels (group): 5,392 
+                 (subclass): 602
+
 
 📁 Dataset Splits
 Split	# of Patents
 Train	71,407
 Validation	11,065
 Test	11,117
+
 🏷️ Label Coverage per Split
+
 🔹 Subclass Counts
 Split	# of Subclasses
 Train	598
 Validation	534
 Test	534
 Total	602
+
 🔹 Group Counts
 Split	# of Groups
 Train	5,201
 Validation	2,904
 Test	2,911
 Total	5,392
+
 🔄 Label Overlap Between Splits
+
 📌 Subclass Differences
 
     In validation but not in train: 114
