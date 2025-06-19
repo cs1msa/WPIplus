@@ -5,5 +5,5 @@ The two datasets contain all virtual patents with complete English-language cont
 For accessing the datasets and see further details about the respective dataset, please see below:
 
 
-## \#Sample(EPO, WO, US)en-all-ipcr (https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-ipcr)
-## \#Sample(EPO, WO, US)en-all-cpc (https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-cpc)
+## [\#Sample(EPO, WO, US)en-all-ipcr](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-ipcr)
+## [\#Sample(EPO, WO, US)en-all-cpc](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-cpc)
