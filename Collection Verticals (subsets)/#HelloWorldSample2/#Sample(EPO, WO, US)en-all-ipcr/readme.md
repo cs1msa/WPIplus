@@ -50,3 +50,10 @@
 ---
 
 For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](#).
+
+---
+
+## 💻 Source Code
+
+- For accessing the dataset preparation pipeline, refer to this notebook: [📄 Subpart Creation - EP, US, WO_all_ipcr](#).
+- For parsing the EP, WO, and US collections, see: [📄 Parsing subpart.ipynb](#).
