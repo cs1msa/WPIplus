@@ -51,7 +51,13 @@
 
 ## Plots
 ### Distribution per office
-![Plot per office.png](Plot%20per%20office.png)
+![Plot the distribution of patents per office.png](Plot%20per%20office.png)
+
+### Distribution per section label
+![Plot the distribution of patents per section label.png](Plot%20the%20distribution%20of%20patents%20per%20section%20label.png)
+
+### Distribution per month
+![Plot the distribution of patents per month.png](Distribution%20of%20Entries%20Over%20Time.png)
 
 ---
 
