@@ -49,7 +49,7 @@
 
 ---
 
-For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](#).
+For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2).
 
 ---
 
