@@ -1,32 +1,26 @@
 # CLTS files referring to VP 
-Inside each #CLST folder, you'll find six CLTS files referring to VP:
+Inside each #CLST folder, you'll find four CLTS files referring to VP:
 
 - #CLTSep\_VP_cpc_1.csv
 - #CLTSep\_VP_cpc_2.csv
-- #CLTSep\_VP_cpc_3a.csv
-- #CLTSep\_VP_cpc_3b.csv
-- #CLTSep\_VP_cpc_4a.csv
-- #CLTSep\_VP_cpc_4b.csv
+- #CLTSep\_VP_cpc_3.csv
+- #CLTSep\_VP_cpc_4.csv
 
 # CLTS files referring to Patent Documents 
-Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
+Inside each #CLST folder, you'll find four CLTS files referring to patent documents:
 
 - #CLTSep\_PatDocs_cpc_1.csv
 - #CLTSep\_PatDocs_cpc_2.csv
-- #CLTSep\_PatDocs_cpc_3a.csv
-- #CLTSep\_PatDocs_cpc_3b.csv
-- #CLTSep\_PatDocs_cpc_4a.csv
-- #CLTSep\_PatDocs_cpc_4b.csv
+- #CLTSep\_PatDocs_cpc_3.csv
+- #CLTSep\_PatDocs_cpc_4.csv
 
 # CLTS files referring to Subclass Codes 
-You'll find six CLTS files referring to subclass codes (associated with their frequency) belonging to each classification test set:
+Moreover, you'll find four CLTS files referring to subclass codes (associated with their frequency) belonging to each classification test set:
 
 - #CLTSep\_codes_cpc_1.csv
 - #CLTSep\_codes_cpc_2.csv
-- #CLTSep\_codes_cpc_3a.csv
-- #CLTSep\_codes_cpc_3b.csv
-- #CLTSep\_codes_cpc_4a.csv
-- #CLTSep\_codes_cpc_4b.csv
+- #CLTSep\_codes_cpc_3.csv
+- #CLTSep\_codes_cpc_4.csv
   
 # Help CSV file
 The (help) CSV file used to generate the above files is:
