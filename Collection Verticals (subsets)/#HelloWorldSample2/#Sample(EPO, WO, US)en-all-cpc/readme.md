@@ -1,15 +1,15 @@
 ## 📊 Dataset Statistics
 
 ### 🧾 General Information
-- **Total patents**: 93,589  
-- **Total unique labels**: 602 subclasses 5,392 groups 
+- **Total patents**: 97,063  
+- **Total unique labels**: 621 subclasses 7,984 groups 
 
 ### 📁 Dataset Splits
 | Split       | # of Patents |
 |-------------|--------------|
-| Train       | 71,407       |
-| Validation  | 11,065       |
-| Test        | 11,117       |
+| Train       | 71,199       |
+| Validation  | 10,013       |
+| Test        | 9,851       |
 
 ---
 
@@ -18,34 +18,50 @@
 #### 🔹 Subclass Counts
 | Split       | # of Subclasses |
 |-------------|-----------------|
-| Train       | 598             |
-| Validation  | 534             |
-| Test        | 534             |
-| **Total**   | 602             |
+| Train       | 619             |
+| Validation  | 562             |
+| Test        | 561             |
+| **Total**   | 621             |
 
 #### 🔹 Group Counts
 | Split       | # of Groups     |
 |-------------|-----------------|
-| Train       | 5,201           |
-| Validation  | 2,904           |
-| Test        | 2,911           |
-| **Total**   | 5,392           |
+| Train       | 7,729           |
+| Validation  | 4,752           |
+| Test        | 4,687           |
+| **Total**   | 7,984           |
 
 ---
 
 ### 🔄 Label Overlap Between Splits
 
 #### 📌 Subclass Differences
-- In **validation** but **not in train**: 114  
-- In **train** but **not in validation**: 2,411  
-- In **test** but **not in train**: 94  
-- In **train** but **not in test**: 2,384  
+- In **validation** but **not in train**: 1  
+- In **train** but **not in validation**: 58 
+- In **test** but **not in train**: 1  
+- In **train** but **not in test**: 59  
 
 #### 📌 Group Differences
-- In **validation** but **not in train**: 1  
-- In **train** but **not in validation**: 65  
-- In **test** but **not in train**: 1  
-- In **train** but **not in test**: 65  
+- In **validation** but **not in train**: 143 
+- In **train** but **not in validation**: 3,120  
+- In **test** but **not in train**: 138  
+- In **train** but **not in test**: 3,180  
+
+---
+
+For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2).
+
+---
+
+## Plots
+### Distribution per office
+![Plot the distribution of patents per office.png](Plot%20per%20office_cpc.png)
+
+### Distribution per section label
+![Plot the distribution of patents per section label.png](Plot%20the%20distribution%20of%20patents%20per%20section%20label_cpc.png)
+
+### Distribution per month
+![Plot the distribution of patents per month.png](Distribution%20of%20Entries%20Over%20Time_cpc.png)
 
 ---
 
