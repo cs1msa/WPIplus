@@ -36,16 +36,16 @@
 ### 🔄 Label Overlap Between Splits
 
 #### 📌 Subclass Differences
-- In **validation** but **not in train**: 114  
-- In **train** but **not in validation**: 2,411  
-- In **test** but **not in train**: 94  
-- In **train** but **not in test**: 2,384  
-
-#### 📌 Group Differences
 - In **validation** but **not in train**: 1  
 - In **train** but **not in validation**: 65  
 - In **test** but **not in train**: 1  
 - In **train** but **not in test**: 65  
+
+#### 📌 Group Differences
+- In **validation** but **not in train**: 114  
+- In **train** but **not in validation**: 2,411  
+- In **test** but **not in train**: 94  
+- In **train** but **not in test**: 2,384  
 
 ---
 
