@@ -1,33 +1,27 @@
 # Classification Test Set Organization 
 ## CLTS files referring to VP 
-Inside each #CLST folder, you'll find six CLTS files referring to VP:
+Inside each #CLST folder, you'll find four CLTS files referring to VP:
 
 - #CLTSep\_VP_ipcr_1.csv
 - #CLTSep\_VP_ipcr_2.csv
-- #CLTSep\_VP_ipcr_3a.csv
-- #CLTSep\_VP_ipcr_3b.csv
-- #CLTSep\_VP_ipcr_4a.csv
-- #CLTSep\_VP_ipcr_4b.csv
+- #CLTSep\_VP_ipcr_3.csv
+- #CLTSep\_VP_ipcr_4.csv
 
 ## CLTS files referring to Patent Documents 
-Inside each #CLST folder, you'll find six CLTS files referring to patent documents:
+Inside each #CLST folder, you'll find four CLTS files referring to patent documents:
 
 - #CLTSep\_PatDocs_ipcr_1.csv
 - #CLTSep\_PatDocs_ipcr_2.csv
-- #CLTSep\_PatDocs_ipcr_3a.csv
-- #CLTSep\_PatDocs_ipcr_3b.csv
-- #CLTSep\_PatDocs_ipcr_4a.csv
-- #CLTSep\_PatDocs_ipcr_4b.csv
+- #CLTSep\_PatDocs_ipcr_3.csv
+- #CLTSep\_PatDocs_ipcr_4.csv
 
 ## CLTS files referring to Subclass Codes
 You'll find six CLTS files referring to subclass codes (associated with their frequency) belonging to the specific classification test set:
 
 - #CLTSep_codes_ipcr_1.csv
 - #CLTSep_codes_ipcr_2.csv
-- #CLTSep_codes_ipcr_3a.csv
-- #CLTSep_codes_ipcr_3b.csv
-- #CLTSep_codes_ipcr_4a.csv
-- #CLTSep_codes_ipcr_4b.csv
+- #CLTSep_codes_ipcr_3.csv
+- #CLTSep_codes_ipcr_4.csv
 
 ## Help CSV file
 The (help) CSV file used to generate the above files is:
@@ -55,12 +49,8 @@ After processing the labels, we are left with 469,757 patent documents from the 
 We then assign IPCR labels to each of the test sets based on the predefined criteria:
 - **#EP-CLTS1:** This test set includes all available subclass labels (632 total).
 - **#EP-CLTS2:** The most frequently occurring subclass labels are selected, excluding outliers, resulting in 565 labels.
-- **#EP-CLTS3:** This test set includes either:
-571 labels that are represented in more than 50 patents (#CLTS3a), or
-524 labels represented in more than 100 patents (#CLTS3b).
-- **#EP-CLTS4:** This test set focuses on low-represented subclass labels, including:
-61 labels appearing in fewer than 50 patents (#CLTS4a), or
-108 labels appearing in fewer than 100 patents (#CLTS4b).
+- **#EP-CLTS3:** This test set includes 524 labels represented in more than 100 patents (#CLTS3).
+- **#EP-CLTS4:** This test set focuses on low-represented subclass labels, including 38 labels appearing in fewer than 20 patents (#CLTS4).
 
 ## Stage 2: Patent Document Selection
 
@@ -83,17 +73,12 @@ Test Set Collections
 - **#EP-CLTS2:** This test set contains 4,267 patent documents (corresponding to 1,967 single patents). 
 **Coverage:** 428 subclass labels out of 565 initially assigned labels. 33 subclass labels are included from outliers.
 
-- **#EP-CLTS3:**
+- **#EP-CLTS3:** This test set contains contains 6,175 patent documents (corresponding to 2,844 single patents).
+**Coverage:** 443 labels out of 515 assigned, plus 16 additional labels not included in the test set labels.
+108, 5) (83
+- **#EP-CLTS4:** This test set contains contains 108 patent documents (corresponding to 83 single patents).
+**Coverage:** 30 labels out of 38 assigned, plus 105 additional labels not included in the test set labels.
         
-**Alternative 1 (>50 patents):** Includes 6,179 patent documents (corresponding to 2,846 single patents) with 456 labels out of 565 assigned, plus 4 additional labels not included in the test set labels.
-        
-**Alternative 2 (>100 patents):** Includes 6,175 patent documents (corresponding to 2,844 single patents) with 443 labels out of 515 assigned, plus 16 additional labels not included in the test set labels.
-
-- **#EP-CLTS4:**
-        
-**Alternative 1 (<50 patents):** Includes 5 few-shot subclass labels (out of 61) that are present in only 13 patent documents (corresponding to 6 single patents). These documents also include 10 labels not categorized as few-shot labels.
-        
-**Alternative 2 (<100 patents):** Includes 51 patent documents (corresponding to 23 single patents) that cover 18 few-shot subclass labels out of 108, plus 36 additional labels not categorized as few-shot labels.
 
 ## Conclusion
 
