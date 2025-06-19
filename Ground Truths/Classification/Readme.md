@@ -16,6 +16,8 @@ After identifying the labels of interest for each test set, we curate the test s
 - **Issued date**: The patent must have an issue date after October 1, 2015.
 - **Relevant labels**: The patent must contain at least one of those labels assigned in the respective test set.
 
+**Exception:** For the fourth test set (#CLTS4), applying the above criteria results in very few patent documents, which finally correspond to even fewer single patents. To overcome this limitation, we relaxed the criteria by including both A and B documents issued within the second year of the WPI dataset (i.e. after January 1, 2015). 
+
 ## Generalizable Methodology
 
 This process is repeatable for constructing classification test sets across different verticals and classification schemes (Main-Further/IPCR/CPC), ensuring consistent evaluation across various patent datasets.
