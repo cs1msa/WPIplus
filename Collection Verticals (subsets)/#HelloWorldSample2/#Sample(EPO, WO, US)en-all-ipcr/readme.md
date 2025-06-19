@@ -9,12 +9,14 @@ Total patents: 93,589
 
 
 📁 Dataset Splits
+
 Split	# of Patents
 Train	71,407
 Validation	11,065
 Test	11,117
 
 🏷️ Label Coverage per Split
+
 
 🔹 Subclass Counts
 Split	# of Subclasses
@@ -24,6 +26,7 @@ Test	534
 Total	602
 
 🔹 Group Counts
+
 Split	# of Groups
 Train	5,201
 Validation	2,904
@@ -34,6 +37,7 @@ Total	5,392
 
 📌 Subclass Differences
 
+
     In validation but not in train: 114
 
     In train but not in validation: 2,411
@@ -43,6 +47,7 @@ Total	5,392
     In train but not in test: 2,384
 
 📌 Group Differences
+
 
     In validation but not in train: 1
 
