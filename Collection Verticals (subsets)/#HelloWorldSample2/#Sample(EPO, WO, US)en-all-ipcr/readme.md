@@ -1,58 +1,52 @@
-📊 Dataset Statistics Overview
+## 📊 Dataset Statistics
 
-🧾 General Information
+### 🧾 General Information
+- **Total patents**: 93,589  
+- **Total unique labels (subclass + group)**: 5,392  
 
-Total patents: 93,589
+### 📁 Dataset Splits
+| Split       | # of Patents |
+|-------------|--------------|
+| Train       | 71,407       |
+| Validation  | 11,065       |
+| Test        | 11,117       |
 
-    Total labels (group): 5,392 
-                 (subclass): 602
+---
 
+### 🏷️ Label Coverage per Split
 
-📁 Dataset Splits
+#### 🔹 Subclass Counts
+| Split       | # of Subclasses |
+|-------------|-----------------|
+| Train       | 598             |
+| Validation  | 534             |
+| Test        | 534             |
+| **Total**   | 602             |
 
-Split	# of Patents
-Train	71,407
-Validation	11,065
-Test	11,117
+#### 🔹 Group Counts
+| Split       | # of Groups     |
+|-------------|-----------------|
+| Train       | 5,201           |
+| Validation  | 2,904           |
+| Test        | 2,911           |
+| **Total**   | 5,392           |
 
-🏷️ Label Coverage per Split
+---
 
+### 🔄 Label Overlap Between Splits
 
-🔹 Subclass Counts
-Split	# of Subclasses
-Train	598
-Validation	534
-Test	534
-Total	602
+#### 📌 Subclass Differences
+- In **validation** but **not in train**: 114  
+- In **train** but **not in validation**: 2,411  
+- In **test** but **not in train**: 94  
+- In **train** but **not in test**: 2,384  
 
-🔹 Group Counts
+#### 📌 Group Differences
+- In **validation** but **not in train**: 1  
+- In **train** but **not in validation**: 65  
+- In **test** but **not in train**: 1  
+- In **train** but **not in test**: 65  
 
-Split	# of Groups
-Train	5,201
-Validation	2,904
-Test	2,911
-Total	5,392
+---
 
-🔄 Label Overlap Between Splits
-
-📌 Subclass Differences
-
-
-    In validation but not in train: 114
-
-    In train but not in validation: 2,411
-
-    In test but not in train: 94
-
-    In train but not in test: 2,384
-
-📌 Group Differences
-
-
-    In validation but not in train: 1
-
-    In train but not in validation: 65
-
-    In test but not in train: 1
-
-    In train but not in test: 65
+For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](#).
