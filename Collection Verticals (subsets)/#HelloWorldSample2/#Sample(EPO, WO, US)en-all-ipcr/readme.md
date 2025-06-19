@@ -49,11 +49,17 @@
 
 ---
 
+## Plots
+### Distribution per office
+![merging_patents_new](Plot per office.png)
+
+---
+
 For more details on the dataset preparation pipeline and objectives, refer to the [📄 Documentation: Patent Classification Dataset Preparation Pipeline](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2).
 
 ---
 
 ## 💻 Source Code
 
-- For accessing the dataset preparation pipeline, refer to this notebook: [📄 Subpart Creation - EP, US, WO_all_ipcr](#).
-- For parsing the EP, WO, and US collections, see: [📄 Parsing subpart.ipynb](#).
+- For accessing the dataset preparation pipeline, refer to this notebook: [📄 Subpart Creation - EP, US, WO_all_ipcr](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/Source%20Code/Subpart%20Creation%20-%20EP%2C%20US%2C%20WO_all_ipcr.ipynb).
+- For parsing the EP, WO, and US collections, see: [📄 Parsing subpart.ipynb](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/Source%20Code/Parsing%20subpart.ipynb).
