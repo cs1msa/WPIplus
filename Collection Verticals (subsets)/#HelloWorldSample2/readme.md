@@ -1,1 +1,1 @@
-
+ This vertical contains all virtual patents with complete English-language content across the abstract, description, and claims sections. Additionally, only patents with non-empty classification labels are included, and under-represented labels (with fewer than 20 occurrences) have been filtered out. A stratified sampling strategy was applied, retaining 5% of the instances per label (with a minimum of one per label), resulting in a representative yet balanced subset of the original dataset.
