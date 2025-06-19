@@ -2,7 +2,7 @@
 
 ### 🧾 General Information
 - **Total patents**: 93,589  
-- **Total unique labels (subclass + group)**: 5,392  
+- **Total unique labels**: 602 subclasses 5,392 groups 
 
 ### 📁 Dataset Splits
 | Split       | # of Patents |
