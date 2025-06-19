@@ -51,7 +51,7 @@
 
 ## Plots
 ### Distribution per office
-([Plot per office.png](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-ipcr/Plot%20per%20office.png)
+![Plot per office.png](Plot%20per%20office.png)
 
 ---
 
