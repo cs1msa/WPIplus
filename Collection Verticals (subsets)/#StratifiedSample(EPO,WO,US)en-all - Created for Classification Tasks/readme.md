@@ -24,6 +24,6 @@ The preprocessing pipeline performs the following operations to standardize and 
 - Summary statistics and label frequency distributions by section, subclass, and group
 
 For direct access to the datasets and further details, please see below.
-## [\#Sample(EPO, WO, US)en-all-ipcr](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-ipcr)
-## [\#Sample(EPO, WO, US)en-all-cpc](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23HelloWorldSample2/%23Sample(EPO%2C%20WO%2C%20US)en-all-cpc)
+## [\#StratifiedSample_IPCR(EPO,WO,US)en-all](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23StratifiedSample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Classification%20Tasks/%23StratifiedSample_IPCR(EPO%2CWO%2CUS)en-all)
+## [\#StratifiedSample_CPC(EPO,WO,US)en-all](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23StratifiedSample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Classification%20Tasks/%23StratifiedSample_CPC(EPO%2CWO%2CUS)en-all)
 
