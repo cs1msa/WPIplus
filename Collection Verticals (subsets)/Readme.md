@@ -10,7 +10,8 @@ This repository provides access to multiple curated verticals within the WPI+ pa
 - [🌐 "All English Text" Vertical for Prior-Art Search](#-all-english-text-vertical-for-prior-art-search-tasks)
   - [📑 Sample Subset](#-sample-subset)
 - [🧪 Stratified Samples for Classification Tasks](#-stratified-samples-for-classification-tasks)
-- [🧩 Virtual Patent EP Vertical](#-virtual-patent-ep-vertical)
+- [🧩 Virtual Patent Verticals]()
+  -   [📑 Virtual Patent EP Vertical](#-virtual-patent-ep-vertical)
 - [❓ What Are Virtual Patents?](#-what-are-virtual-patents)
   - [📷 VP Construction Example](#vp-construction-example)
 
