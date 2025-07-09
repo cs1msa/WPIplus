@@ -16,7 +16,10 @@ This sample retains all the structural and linguistic properties of the main dat
 
 ---
 
-## 🔗 Access
+## 🔗 Download
+- 📥 [Download 60K Sample Subset (SGML)](https://drive.google.com/file/d/1DhKnQdwugwJorjokZjzlU8B2A4XsiF-Y/view?usp=sharing)
+  
+---
 
-- 📥 [60K Sample Subset (SGML)](https://drive.google.com/file/d/1DhKnQdwugwJorjokZjzlU8B2A4XsiF-Y/view?usp=sharing)
-- 👉 [`#(EPO,WO,US)en-all` Full Dataset](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23(EPO%2CWO%2CUS)en-all)
+## 📚 Related Dataset
+- 👉 [(EPO,WO,US)en-all Full Dataset](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23(EPO%2CWO%2CUS)en-all)
