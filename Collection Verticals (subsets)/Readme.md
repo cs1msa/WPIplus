@@ -35,15 +35,15 @@ These are the core verticals of the WPI+ collection, containing all patent docum
 
 This vertical includes EP, WO, and US patent documents where all key text fields—**abstract**, **description**, and **claims**—are written in English. It is designed to support **prior-art search** and **natural language processing** applications.
 
-### 📑 Sample Subset  
-📁 [60K Sample of "All English Text"](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23Sample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
+### 📑 Sample Subset of "All English Text"
+📁 [#Sample(EPO,WO,US)en-all](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23Sample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
 
 A sample subset of 60,000 documents from the above vertical. Ideal for quick experimentation.
 
 ---
 
-## 🧪 Stratified Samples for Classification Tasks  
-📁 [Stratified Sample of #EP, #WO, #US](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23StratifiedSample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Classification%20Tasks)
+## 🧪 Stratified Samples of #EP, #WO, #US Verticals for Classification Tasks  
+📁 [#StratifiedSample(EPO,WO,US)en-all](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23StratifiedSample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Classification%20Tasks)
 
 This vertical provides two stratified, balanced datasets derived from the EP, WO, and US core verticals. These datasets are structured for **supervised learning**, especially **classification tasks**.
 
