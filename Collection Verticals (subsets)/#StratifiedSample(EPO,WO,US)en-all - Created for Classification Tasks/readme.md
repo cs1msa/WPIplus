@@ -1,5 +1,5 @@
 # Stratified Sample Description
-This vertical contains two representative, stratified sample datasets derived from the full [\#(EPO,WO,US)en-all](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23(EPO%2CWO%2CUS)en-all) corpus. 
+This vertical contains two representative, stratified sample datasets derived from the core #EP, #WO, and #US verticals. 
 
 Both datasets were produced using **stratified sampling** and contain approximately **95,000 unique patents** each. The first dataset is stratified by **IPC codes**, and the other by **CPC codes**. Both are intended to support rapid **experimentation and benchmarking for multi-label patent classification tasks**.
 
