@@ -58,7 +58,7 @@ For more details on the dataset preparation pipeline and objectives, refer to th
 ![Plot the distribution of patents per office.png](Plot%20per%20office_cpc.png)
 
 ### Distribution per section label
-![Plot the distribution of patents per section label.png](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/%23StratifiedSample(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Classification%20Tasks/%23StratifiedSample_CPC(EPO%2CWO%2CUS)en-all/Plot%20the%20distribution%20of%20patents%20per%20section%20label_cpc.png)
+![Plot the distribution of patents per section label.png](Plot%20the%20distribution%20of%20patents%20per%20section%20label_cpc.png)
 
 ### Distribution per month
 ![Plot the distribution of patents per month.png](Distribution%20of%20Entries%20Over%20Time_cpc.png)
