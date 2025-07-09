@@ -13,7 +13,6 @@ This repository provides access to multiple curated verticals within the WPI+ pa
 - [🧩 Virtual Patent EP Vertical](#-virtual-patent-ep-vertical)
 - [❓ What Are Virtual Patents?](#-what-are-virtual-patents)
   - [📷 VP Construction Example](#vp-construction-example)
-- [📎 License & Citation](#-license--citation)
 
 ---
 
