@@ -50,6 +50,6 @@ A **60,000-document** sample from the vertical is available for rapid experiment
 
 ## 🔗 Access
 
-- 📂 [#(EPO,WO,US)en-all Full Dataset](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
-- ⚡ [60K Sample Subset](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23Sample(EPO,WO,US)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
+- 📂 [(EPO,WO,US)en-all Full Dataset](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23(EPO%2CWO%2CUS)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
+- ⚡ [60K Sample Subset (SGML)](https://github.com/cs1msa/WPIplus/tree/main/Collection%20Verticals%20(subsets)/%23Sample(EPO,WO,US)en-all%20-%20Created%20for%20Priot-Art%20Search%20Tasks)
 - 📄 [Patent ID List (Google Drive)](https://drive.google.com/file/d/17g6XzmTnXIStdTUhrZki8PpHwU93bh2s/view?usp=sharing)
