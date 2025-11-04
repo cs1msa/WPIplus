@@ -41,7 +41,7 @@ A **Virtual Patent (VP)** is a synthesized document representing a single patent
 
 Patent offices often release multiple documents for the same invention, where later publications may include only partial updates or amendments. A **Virtual Patent** consolidates these into one **coherent, unified document**, ensuring that researchers always work with the **most complete and current** information.
 
-![merging_patents_new]([merging_patents_new.png](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/merging_patents_new.png))
+![merging_patents_new](https://github.com/cs1msa/WPIplus/blob/main/Collection%20Verticals%20(subsets)/merging_patents_new.png)
 **Figure 1:** Creation of a Virtual Patent by merging fields from different patent documents.
 
 ---
