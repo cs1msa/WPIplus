@@ -6,8 +6,7 @@ This repository introduces the **VP-WPI Test Collection**, a novel dataset that 
 
 ## 1. Background: The WPI Foundation
 
-The **WPI Test Collection** is a major, publicly available resource for patent research.  
-It stands out due to its **multimodal** and **multilingual** data from **six major patent authorities**, a feature rarely found in other public collections.
+The **WPI Test Collection** is a major, publicly available resource for patent research. It stands out due to its **multimodal** and **multilingual** data from **six major patent authorities**, a feature rarely found in other public collections.
 
 **Coverage:** 2014–2015
 
@@ -59,10 +58,12 @@ Patent offices often release multiple documents for the same invention, where la
 
 ## 5. Further Information
 
+For accessing th resource:
+- 📘 [TU Wien - VP-WPI test collection](https://researchdata.tuwien.ac.at/records/x309z-a9q08?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijc3ZDM0YjFlLWU2NGYtNDI4Ny1iYmMwLWE1MjU1MDk1NDQ3NyIsImRhdGEiOnt9LCJyYW5kb20iOiI4MGEwYmY0OWVlZmZmYjFmMjUzNmQ4ZDA2YWE5MjFhZSJ9.uLQ-vHy4Ao2124sNWj2Hcy1ujL_TZnwlqPBt2zL7szLlFAGLZjWdOlIec5k1KTOnRs6WJIksvzVnHYR4rVMKZw)  
+
 For complete technical details, including **collection statistics**, **data specifications**, and the **creation process**, please refer to:
 
-- 📘 [TU WIEN Research Data Portal](#) *(Link placeholder)*  
-- 💻 [Official WPI+ Documentation & Source Code – GitHub Repository](#)  
+- 💻 [Source Code](https://github.com/cs1msa/WPIplus/tree/main/Virtual%20Patents/Source%20code)  
 - 🎓 Papadopoulos, C. *MSc Thesis (in Greek)*, International Hellenic University  
   [https://repository.ihu.gr/handle/11544/47881](https://repository.ihu.gr/handle/11544/47881)
 
