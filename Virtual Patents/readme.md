@@ -1,4 +1,4 @@
-# 🧠 Technical Note: The Virtual Patent (VP-WPI) Test Collection
+# 🧠 VP-WPI: The Virtual Patent Test Collection
 
 This repository introduces the **VP-WPI Test Collection**, a novel dataset that aggregates patent documents from the **WPI (World Patent Information)** corpus at the *kind-code* level to create unified **“Virtual Patent” (VP)** documents.
 
@@ -40,8 +40,7 @@ M. Salampasis *et al.*, “*Towards a new paradigm for patent experimentation: W
 
 A **Virtual Patent (VP)** is a synthesized document representing a single patent by **merging the most up-to-date information** from its various publication stages (e.g., *A1, A2, B1, B2*).
 
-Patent offices often release multiple documents for the same invention, where later publications may include only partial updates or amendments.  
-A **Virtual Patent** consolidates these into one **coherent, unified document**, ensuring that researchers always work with the **most complete and current** information.
+Patent offices often release multiple documents for the same invention, where later publications may include only partial updates or amendments. A **Virtual Patent** consolidates these into one **coherent, unified document**, ensuring that researchers always work with the **most complete and current** information.
 
 > **Figure 1:** Creation of a Virtual Patent by merging fields from different patent documents.
 
@@ -49,8 +48,7 @@ A **Virtual Patent** consolidates these into one **coherent, unified document**,
 
 ## 4. The VP-WPI Collection
 
-**VP-WPI** is a specialized *vertical* of the **WPI+ resource** that implements the **Virtual Patent** concept.  
-It provides a unified, non-redundant view of patents by aggregating all related documents for a single invention into one **VP entity**.
+**VP-WPI** is a specialized *vertical* of the **WPI+ resource** that implements the **Virtual Patent** concept.  It provides a unified, non-redundant view of patents by aggregating all related documents for a single invention into one **VP entity**.
 
 **Key Advantages:**
 - 🔁 **Simplifies analysis** by reducing document redundancy  
