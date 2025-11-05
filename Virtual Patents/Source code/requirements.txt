@@ -1,0 +1,14 @@
+# PatentFusion Dependencies
+# Virtual patent processing system for combining multiple patent kind codes
+
+# XML Processing - Core dependency for patent document parsing and manipulation
+lxml>=4.6.0
+
+# Data Analysis and Export - Used for DataFrame operations and CSV/JSON output
+pandas>=1.3.0
+
+# Progress Bars - Provides user-friendly progress tracking during processing
+tqdm>=4.62.0
+
+# System and Process Monitoring - Used for memory management and resource monitoring
+psutil>=5.8.0
