@@ -60,7 +60,7 @@ Patent offices often release multiple documents for the same invention, where la
 
 ## 5. Further Information
 
-For accessing th resource:
+For accessing the resource:
 - 📘 [TU Wien - VP-WPI test collection](https://researchdata.tuwien.ac.at/records/x309z-a9q08?preview=1&token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6Ijc3ZDM0YjFlLWU2NGYtNDI4Ny1iYmMwLWE1MjU1MDk1NDQ3NyIsImRhdGEiOnt9LCJyYW5kb20iOiI4MGEwYmY0OWVlZmZmYjFmMjUzNmQ4ZDA2YWE5MjFhZSJ9.uLQ-vHy4Ao2124sNWj2Hcy1ujL_TZnwlqPBt2zL7szLlFAGLZjWdOlIec5k1KTOnRs6WJIksvzVnHYR4rVMKZw)  
 
 For complete technical details, including **collection statistics**, **data specifications**, and the **creation process**, please refer to:
